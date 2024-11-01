@@ -12,4 +12,7 @@ public interface UserService {
     Response getUserById(String userId);
     Response getMyBookings(String email);
 
+    Response getAllUsers();
+
+    Response getMyInfo(String email);
 }
