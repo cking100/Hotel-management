@@ -46,4 +46,5 @@ public class UserController {
         Response response = userService.getMyInfo(email);
         return ResponseEntity.status(response.getStatusCode()).body(response);
     }
+
 }
